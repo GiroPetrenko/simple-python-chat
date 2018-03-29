@@ -1,0 +1,8 @@
+C: REQ-CNT
+S: S_FP=[Hash fingerprint goes here]
+C: KEY=[Encrypted fingerprint]
+S: CNT+OK ===> Connection OK
+  |RST+END ====> Connection fail
+C: CNT+ESB ====> Connection started
+
+------ Normal data package --------
